@@ -1,0 +1,9 @@
+{% extends 'base.html'%} {% load static%}
+
+<link rel="stylesheet" href="{% static 'home/styles.css'%}" />
+
+<div id="header-text-container">
+  {%block content%}
+  <h1 id="header-text">Posts will be displayed here</h1>
+  {% endblock%}
+</div>
