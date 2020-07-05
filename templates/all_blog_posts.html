@@ -5,5 +5,12 @@
 <div id="header-text-container">
   {%block content%}
   <h1 id="header-text">Posts will be displayed here</h1>
+  <div>
+    {% for post in posts%}
+    <a href="/posts/{{post.id}}/cyber-security-content"
+      ><h1>{{post.post_title}}</h1></a
+    >
+    {% endfor%}
+  </div>
   {% endblock%}
 </div>

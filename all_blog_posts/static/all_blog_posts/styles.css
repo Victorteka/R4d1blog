@@ -1,0 +1,10 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+p {
+  font-size: 20px;
+}
+.content {
+  width: 80%;
+  margin: auto;
+}
