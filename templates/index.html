@@ -4,6 +4,22 @@
 
 <div id="header-text-container">
   {%block content%}
-  <h1 id="header-text">Cyber security blogging website</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h5 style="margin-top: 150px;">
+          Welcome to the cyber security blogging page.
+        </h5>
+      </div>
+      <div class="col-md-4">
+        <img
+          class="my-photo"
+          src="{% static 'home/images/mwas.jpg' %}"
+          alt="mwas photo"
+        />
+      </div>
+    </div>
+  </div>
+
   {% endblock%}
 </div>
