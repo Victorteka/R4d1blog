@@ -4,21 +4,28 @@
 
 <div id="header-text-container">
   {%block content%}
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <h5 style="margin-top: 150px;">
-          Welcome to the cyber security blogging page.
-        </h5>
-      </div>
-      <div class="col-md-4">
-        <img
-          class="my-photo"
-          src="{% static 'home/images/mwas.jpg' %}"
-          alt="mwas photo"
-        />
-      </div>
-    </div>
+  <div class="text-center">
+    <img
+      class="my-photo"
+      src="{% static 'home/images/mwas.jpg' %}"
+      alt="mwas photo"
+    />
+  </div>
+  <div class="text-center">
+    <h2>Meshack Mwala</h2>
+    <h3>Kenyan Cyber Security Researcher</h3>
+    <a href="{% url 'posts'%}"
+      ><i class="fa fa-twitter" style="font-size: 24px; color: #ffffff;"></i
+    ></a>
+    <a href="{% url 'posts'%}"
+      ><i
+        class="fa fa-github ml-4 mr-4"
+        style="font-size: 24px; color: #ffffff;"
+      ></i
+    ></a>
+    <a href="{% url 'posts'%}"
+      ><i class="fa fa-medium" style="font-size: 24px; color: #ffffff;"></i
+    ></a>
   </div>
 
   {% endblock%}

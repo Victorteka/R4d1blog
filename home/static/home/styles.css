@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #1f222a;
   color: white;
   font-family: "Lato", sans-serif;
 }
@@ -7,7 +7,7 @@ a {
   text-decoration: none;
 }
 .mycontainer {
-  color: black;
+  color: red;
 }
 .navbar {
   border-bottom: 1px solid gray;

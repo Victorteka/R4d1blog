@@ -36,7 +36,12 @@
 
   <body>
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand ml-4" href="{% url 'home_page'%}"><h2>Mwas</h2></a>
+      <a
+        class="navbar-brand ml-4"
+        href="{% url 'home_page'%}"
+        style="color: #78e2a0;"
+        ><h2>Mwas</h2></a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -51,33 +56,37 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav ml-auto mr-auto">
           <li class="nav-item active">
-            <a class="nav-link p-4" href="{% url 'home_page'%}"
+            <a
+              class="nav-link p-4"
+              href="{% url 'home_page'%}"
+              style="color: #78e2a0;"
               >HOME<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link p-4"
+              href="{% url 'posts'%}"
+              style="color: #78e2a0;"
+              >ABOUT</a
             >
           </li>
 
           <li class="nav-item">
-            <a class="nav-link p-4" href="{% url 'posts'%}">BLOGS</a>
+            <a
+              class="nav-link p-4"
+              href="{% url 'posts'%}"
+              style="color: #78e2a0;"
+              >BLOGS</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link p-4" href="{% url 'posts'%}"
-              ><i class="fa fa-twitter" style="font-size: 24px;"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link p-4" href="{% url 'posts'%}"
-              ><i class="fa fa-linkedin" style="font-size: 24px;"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link p-4" href="{% url 'posts'%}"
-              ><i class="fa fa-github" style="font-size: 24px;"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link p-4" href="{% url 'posts'%}"
-              ><i class="fa fa-instagram" style="font-size: 24px;"></i
-            ></a>
+            <a
+              class="nav-link p-4"
+              href="{% url 'posts'%}"
+              style="color: #78e2a0;"
+              >CONTACT</a
+            >
           </li>
         </ul>
       </div>
